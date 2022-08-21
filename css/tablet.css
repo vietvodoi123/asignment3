@@ -1,0 +1,83 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .container {
+    width: 92%;
+  }
+  /* navbar */
+  .box-avt {
+    display: none;
+  }
+  .nav-item {
+    width: 30%;
+  }
+  .nav-item:nth-child(3) {
+    width: 15%;
+  }
+
+  /* about */
+  #target {
+    padding: 50px;
+  }
+  #personal-info {
+    padding: 50px;
+  }
+  .personal-info-container {
+    margin: 0;
+  }
+
+  /* job-info */
+  #job-info .container {
+    display: grid;
+    grid-template-columns: 47% 47%;
+  }
+  .row {
+    width: 100%;
+    gap: 50px;
+  }
+  .row:nth-child(3) {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 0;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  /* chung chi va giai thuong */
+  .certi-container {
+    row-gap: 70px;
+  }
+  .certi-img {
+    width: 100%;
+  }
+  .certi-content {
+    flex-direction: column;
+  }
+  .content-2::before {
+    left: -17px;
+  }
+  .content-1::after {
+    bottom: -32px;
+  }
+  .content-2::after {
+    width: 100%;
+  }
+
+  /* project */
+  #project .content-container {
+    width: 30%;
+  }
+  .content-container .box-item:nth-child(2) {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 5px;
+  }
+  .dev {
+    grid-column: 2/-1;
+  }
+  .box-item:nth-child(1),
+  .box-item:nth-child(2) {
+    padding-left: 15px;
+  }
+}
