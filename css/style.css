@@ -61,7 +61,7 @@ ul {
       rgba(78, 77, 77, 0.5),
       rgba(78, 77, 77, 0.5)
     ),
-    url("/images/banner.jpg");
+    url("./images/banner.jpg");
   height: 60vh;
   background-size: cover;
 }
